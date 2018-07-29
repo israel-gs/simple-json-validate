@@ -78,13 +78,11 @@
                 errors.push(createErrorMessage(self, 'format', key_name));
               }
               if (max_length) {
-                if (!obj[key_name].length <= max_length) {
+                if (obj[key_name].length > max_length) {
                   errors.push(createErrorMessage(self, 'max_length', key_name));
                 }
               }
-
             }
-
           } else {
             console.error('All objects in the rule must have the attributes name and required.');
           }
