@@ -2,7 +2,7 @@
   "name": "simple-json-validate",
   "version": "0.0.1",
   "description": "Simple JSON validator.",
-  "main": "\u001b[Z\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001bsrc/sjv.js",
+  "main": "src/sjv.js",
   "scripts": {
   },
   "repository": {
